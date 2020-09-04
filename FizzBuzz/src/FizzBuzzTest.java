@@ -19,4 +19,12 @@ public class FizzBuzzTest {
 		String actualResult = fizzbuzz.check(number);
 		assertEquals("Fizz", actualResult);
 	}
+	
+	@Test
+	public void testBuzz() {
+		FizzBuzz fizzbuzz = new FizzBuzz();
+		int number = 5;
+		String actualResult = fizzbuzz.check(number);
+		assertEquals("Buzz", actualResult);
+	}
 }
