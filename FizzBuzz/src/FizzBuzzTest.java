@@ -28,5 +28,21 @@ public class FizzBuzzTest {
 		assertEquals("Buzz", actualResult);
 	}
 	
+	@Test
+	public void testFizzInNumber() {
+		FizzBuzz fizzbuzz = new FizzBuzz();
+		int number = 103;
+		String actualResult = fizzbuzz.check(number);
+		assertEquals("Fizz", actualResult);
+	}
+	
+	@Test
+	public void testBuzzInNumber() {
+		FizzBuzz fizzbuzz = new FizzBuzz();
+		int number = 5;
+		String actualResult = fizzbuzz.check(number);
+		assertEquals("Buzz", actualResult);
+	}
+	
 	
 }
