@@ -27,4 +27,6 @@ public class FizzBuzzTest {
 		String actualResult = fizzbuzz.check(number);
 		assertEquals("Buzz", actualResult);
 	}
+	
+	
 }
